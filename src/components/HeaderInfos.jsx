@@ -15,7 +15,7 @@ axios.get('https://api.coingecko.com/api/v3/global').then ((res)=> setHeaderData
         <div className="header-container">
             <ul className='title'>
                 <li>
-<h1><img src="./public/assets/logo.png"/>Watch Tower</h1>
+<h1><img src="./public/assets/logo.png"/>L'observatoire</h1>
 </li>
 <li>Crypto-Monnaies : {" "}
     {headerData.active_cryptocurrencies && headerData.active_cryptocurrencies}</li>
