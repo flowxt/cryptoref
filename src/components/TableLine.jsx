@@ -16,6 +16,12 @@ const TableLine = ({ coin, index }) => {
         }
     };
 
+const mktCapFormater = (num) => {
+    let newNum = String(num).split("").slice(0, -6).join("");
+    console.log(newNum);
+    return newNum;
+}
+
     return (
         <div className="table-line">
             <div className="infos-container">
